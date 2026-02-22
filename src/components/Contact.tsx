@@ -82,7 +82,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white">Phone</p>
-                    <p className="text-slate-600 dark:text-slate-400">0800 123 4567</p>
+                    <a href="tel:07342040046" className="text-slate-600 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">07342 040046</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -91,7 +91,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white">Email</p>
-                    <p className="text-slate-600 dark:text-slate-400">info@letirltd.co.uk</p>
+                    <a href="mailto:letir.ltd@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">letir.ltd@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -100,7 +100,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white">Office</p>
-                    <p className="text-slate-600 dark:text-slate-400">Serving all of the UK</p>
+                    <p className="text-slate-600 dark:text-slate-400">135 St Georges Drive, WD19 5HE</p>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Contact() {
               <ul className="space-y-3">
                 {[
                   'Free no-obligation quotes',
-                  'NAPIT & MCS certified installers',
+                  'NICEIC & MCS certified installers',
                   'OZEV grant assistance',
                   '10-year installation warranty',
                   'Dedicated project manager',

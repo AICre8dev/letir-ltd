@@ -5,7 +5,7 @@ const values = [
   {
     icon: Award,
     title: 'Certified Excellence',
-    description: 'Fully accredited installers with NAPIT, MCS, and OZEV approved certifications.',
+    description: 'NICEIC Approved Contractor and Gas Safe Registered. Fully accredited and certified.',
   },
   {
     icon: Users,
@@ -117,6 +117,19 @@ export default function About() {
               <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{value.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16 pt-16 border-t border-slate-200 dark:border-slate-700/50">
+          <p className="text-center text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-widest mb-8">
+            Certified & Accredited
+          </p>
+          <div className="flex items-center justify-center">
+            <img
+              src="/niceic-gas-safe.png"
+              alt="NICEIC Approved Contractor and Gas Safe Register"
+              className="h-24 sm:h-28 w-auto object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>

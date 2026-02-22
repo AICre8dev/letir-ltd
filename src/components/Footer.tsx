@@ -45,9 +45,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
-            <a href="#home" className="flex items-center gap-3 mb-6">
-              <img src="/logo.png" alt="Letir LTD" className="h-12 w-auto object-contain brightness-0 invert" />
-            </a>
+            <h3 className="text-xl font-bold text-white mb-6">Letir LTD</h3>
             <p className="text-slate-400 leading-relaxed mb-6 max-w-sm">
               Letir LTD is leading the UK's transition to sustainable energy with expert EV charging and solar panel
               installations. Trusted by homeowners and businesses alike.

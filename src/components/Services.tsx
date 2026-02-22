@@ -7,7 +7,7 @@ const services = [
     title: 'EV Charger Installation',
     description:
       'Professional home and workplace EV charging solutions. From 7kW home chargers to 22kW commercial units, Letir LTD handles everything from survey to switch-on.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
     features: ['All major brands supported', 'Smart charging capability', 'OZEV grant assistance', 'Same-week installation'],
   },
   {
